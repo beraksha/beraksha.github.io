@@ -291,11 +291,11 @@
  <div class="stat-row">
  <div>
  <div class="stat-num">8.7</div>
- <div class="stat-label">CGPA (9.0 / 10.0)</div>
+ <div class="stat-label">CGPA (8.7 / 10.0)</div>
  </div>
  <div>
  <div class="stat-num">1+</div>
- <div class="stat-label">Year of Experience</div>
+ <div class="stat-label">Year of Experience (Including Internships)</div>
  </div>
  </div>
  </section>
@@ -314,19 +314,23 @@
  </div>
  <div class="skill-row">
  <div class="skill-cat">Database &amp; Cloud</div>
- <div class="skill-items">MySQL, MSSQL, PostgreSQL, REST APIs, AWS (Lambda, API Gateway, EC2, S3, Cognito, CloudWatch, Bedrock)</div>
+ <div class="skill-items">MySQL, MSSQL, PostgreSQL, REST APIs, AWS (Lambda, API Gateway, EC2, S3, Cognito, CloudWatch, Bedrock), IBM Cloud (VPC, IAM, Cloud Object Storage), Terraform (Infrastructure as Code), serverless architecture</div>
  </div>
  <div class="skill-row">
  <div class="skill-cat">AI / Gen AI</div>
- <div class="skill-items">RAG, LangChain, Agentic AI, Bedrock AgentCore, Prompt Engineering</div>
+ <div class="skill-items">RAG, LangChain, Agentic AI, Generative AI, Bedrock AgentCore, NLP, RBAC, Prompt Engineering</div>
  </div>
  <div class="skill-row">
  <div class="skill-cat">Data Science &amp; ML</div>
  <div class="skill-items">TensorFlow, PyTorch, OpenCV, Scikit-learn, Pandas, NumPy</div>
  </div>
  <div class="skill-row">
+ <div class="skill-cat">DevOps / Infrastructure</div>
+ <div class="skill-items">Docker (fundamentals), VMware Workstation, Bash Scripting, CloudWatch monitoring, Introduction to DevOps (certified)</div>
+ </div>
+ <div class="skill-row">
  <div class="skill-cat">Tools</div>
- <div class="skill-items">Git, GitHub, Docker, Linux, Model Context Protocol (MCP), Jupyter, Kiro CLI</div>
+ <div class="skill-items">Git, GitHub, Linux, Model Context Protocol (MCP), VScode, Jupyter, Postman</div>
  </div>
  <div class="skill-row">
  <div class="skill-cat">Soft Skills</div>
@@ -461,6 +465,18 @@
  <div class="proj-row">
  <div class="proj-head">
  <span class="proj-idx mono">07</span>
+ <span class="proj-title">RAG-based PDF Q&A System</span>
+ </div>
+ <p class="proj-desc">Built a retrieval-augmented generation pipeline that chunks PDFs, embeds them locally with sentence-transformers into a persistent ChromaDB store, and retrieves the top-k passages for each query. Generates answers grounded only in the retrieved context with page-level citations, via a CLI with unit tests.</p>
+ <div class="proj-meta">
+ <span class="proj-tags mono">python / langchain / chromaDB / llm</span>
+ <a href="https://github.com/beraksha/RAG-PDF-QnA-System" class="proj-link" target="_blank">view source ↗</a>
+ </div>
+ </div>
+
+ <div class="proj-row">
+ <div class="proj-head">
+ <span class="proj-idx mono">08</span>
  <span class="proj-title">Grayscale Matrix Convolution</span>
  </div>
  <p class="proj-desc">Implemented convolution filters (blur, sharpen, edge detection) using NumPy and Pillow. Demonstrates algorithmic thinking, data manipulation and Python fundamentals.</p>
